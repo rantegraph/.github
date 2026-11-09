@@ -1,6 +1,6 @@
-# rante-corporation/.github
+# rantegraph/.github
 
-This repository holds the public profile of the [rante-corporation](https://github.com/rante-corporation) organization
+This repository holds the public profile of the [rantegraph](https://github.com/rantegraph) organization
 on GitHub, and the default community files for Rante's open-source repositories.
 
 | Path | What it is |

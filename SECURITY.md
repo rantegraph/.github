@@ -1,7 +1,7 @@
 # Security
 
 Rante takes the security of its open-source projects seriously, including every repository in the
-[rante-corporation](https://github.com/rante-corporation) organization on GitHub.
+[rantegraph](https://github.com/rantegraph) organization on GitHub.
 
 ## Reporting a vulnerability
 

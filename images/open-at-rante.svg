@@ -28,6 +28,6 @@
     <circle cx="24" cy="29" r="5" fill="#ffffff" fill-opacity="0.28"/>
     <circle cx="42" cy="29" r="5" fill="#ffffff" fill-opacity="0.28"/>
     <circle cx="60" cy="29" r="5" fill="#ffffff" fill-opacity="0.28"/>
-    <text x="84" y="35" font-family="'Cascadia Code', 'Cascadia Mono', Consolas, 'SFMono-Regular', Menlo, Monaco, 'Courier New', monospace" font-size="16"><tspan fill="#9fd8ff">git clone</tspan><tspan fill="#e6edf6"> https://github.com/rante-corporation/rante-login-sdk.git</tspan></text>
+    <text x="84" y="35" font-family="'Cascadia Code', 'Cascadia Mono', Consolas, 'SFMono-Regular', Menlo, Monaco, 'Courier New', monospace" font-size="16"><tspan fill="#9fd8ff">git clone</tspan><tspan fill="#e6edf6"> https://github.com/rantegraph/rante-login-sdk.git</tspan></text>
   </g>
 </svg>
