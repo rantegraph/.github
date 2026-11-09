@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+  <title id="title">Rante Graph</title>
+  <desc id="desc">Rante Graph: one API for the data in the Rante cloud. A graph links graph.rante.com/v1.0 to Me, Users, Groups, Companies, Departments, Legal entities, Drive and Storage, above a chart of rising usage.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1827"/>
+      <stop offset="0.55" stop-color="#102033"/>
+      <stop offset="1" stop-color="#13314f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.73" cy="0.43" r="0.45">
+      <stop offset="0" stop-color="#0067b8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0067b8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hubGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4cc2ff" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#4cc2ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hub" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b88d8"/>
+      <stop offset="1" stop-color="#0058a3"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b88d8" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#2b88d8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fd8ff" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#9fd8ff" stop-opacity="0.04"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#grid)"/>
+  <rect width="1280" height="400" fill="url(#glow)"/>
+
+  <!-- Usage chart: gridlines, bars, line and area -->
+  <g>
+    <path d="M690 312H1250M690 342H1250" stroke="#ffffff" stroke-opacity="0.06" stroke-dasharray="4 6"/>
+    <path d="M690 372H1250" stroke="#ffffff" stroke-opacity="0.14"/>
+    <g fill="url(#bar)">
+      <rect x="700" y="350" width="18" height="22" rx="3"/>
+      <rect x="740" y="342" width="18" height="30" rx="3"/>
+      <rect x="780" y="346" width="18" height="26" rx="3"/>
+      <rect x="820" y="334" width="18" height="38" rx="3"/>
+      <rect x="860" y="338" width="18" height="34" rx="3"/>
+      <rect x="900" y="326" width="18" height="46" rx="3"/>
+      <rect x="940" y="330" width="18" height="42" rx="3"/>
+      <rect x="980" y="318" width="18" height="54" rx="3"/>
+      <rect x="1020" y="322" width="18" height="50" rx="3"/>
+      <rect x="1060" y="312" width="18" height="60" rx="3"/>
+      <rect x="1100" y="315" width="18" height="57" rx="3"/>
+      <rect x="1140" y="306" width="18" height="66" rx="3"/>
+      <rect x="1180" y="309" width="18" height="63" rx="3"/>
+      <rect x="1220" y="300" width="18" height="72" rx="3"/>
+    </g>
+    <path fill="url(#area)" d="M709 334C729 334 729 326 749 326C769 326 769 330 789 330C809 330 809 318 829 318C849 318 849 322 869 322C889 322 889 310 909 310C929 310 929 314 949 314C969 314 969 302 989 302C1009 302 1009 306 1029 306C1049 306 1049 296 1069 296C1089 296 1089 299 1109 299C1129 299 1129 290 1149 290C1169 290 1169 293 1189 293C1209 293 1209 284 1229 284L1229 372L709 372Z"/>
+    <path fill="none" stroke="#4cc2ff" stroke-opacity="0.9" stroke-width="2.5" stroke-linecap="round" d="M709 334C729 334 729 326 749 326C769 326 769 330 789 330C809 330 809 318 829 318C849 318 849 322 869 322C889 322 889 310 909 310C929 310 929 314 949 314C969 314 969 302 989 302C1009 302 1009 306 1029 306C1049 306 1049 296 1069 296C1089 296 1089 299 1109 299C1129 299 1129 290 1149 290C1169 290 1169 293 1189 293C1209 293 1209 284 1229 284"/>
+    <g fill="#0f1b2b" stroke="#4cc2ff" stroke-width="2">
+      <circle cx="829" cy="318" r="3.5"/>
+      <circle cx="989" cy="302" r="3.5"/>
+      <circle cx="1149" cy="290" r="3.5"/>
+    </g>
+    <circle cx="1229" cy="284" r="9" fill="#4cc2ff" fill-opacity="0.18"/>
+    <circle cx="1229" cy="284" r="4.5" fill="#4cc2ff"/>
+  </g>
+
+  <!-- Graph: orbit, leaves, spokes, data in flight -->
+  <ellipse cx="940" cy="172" rx="205" ry="112" fill="none" stroke="#9fd8ff" stroke-opacity="0.16" stroke-dasharray="3 7"/>
+  <g stroke="#4cc2ff" stroke-opacity="0.25" stroke-width="1">
+    <path d="M837.5 75L796 30M837.5 75L870 26M1042.5 75L1006 28M1042.5 75L1086 32M1135 137L1222 104M1135 207L1226 238"/>
+  </g>
+  <g fill="#4cc2ff" fill-opacity="0.7">
+    <circle cx="796" cy="30" r="4"/>
+    <circle cx="870" cy="26" r="3.5"/>
+    <circle cx="1006" cy="28" r="3.5"/>
+    <circle cx="1086" cy="32" r="4"/>
+    <circle cx="1222" cy="104" r="4"/>
+    <circle cx="1226" cy="238" r="3.5"/>
+  </g>
+  <g stroke="#9fd8ff" stroke-opacity="0.32" stroke-width="1.5">
+    <path d="M940 172L745 137M940 172L837.5 75M940 172L1042.5 75M940 172L1135 137M940 172L1135 207M940 172L1042.5 269M940 172L837.5 269M940 172L745 207"/>
+  </g>
+  <g fill="#9fd8ff">
+    <circle cx="883.6" cy="118.7" r="7" fill-opacity="0.22"/>
+    <circle cx="883.6" cy="118.7" r="3.5"/>
+    <circle cx="1047.3" cy="152.8" r="7" fill-opacity="0.22"/>
+    <circle cx="1047.3" cy="152.8" r="3.5"/>
+    <circle cx="996.4" cy="225.4" r="7" fill-opacity="0.22"/>
+    <circle cx="996.4" cy="225.4" r="3.5"/>
+    <circle cx="832.8" cy="191.3" r="7" fill-opacity="0.22"/>
+    <circle cx="832.8" cy="191.3" r="3.5"/>
+  </g>
+
+  <!-- Hub -->
+  <circle cx="940" cy="172" r="92" fill="url(#hubGlow)"/>
+  <circle cx="940" cy="172" r="40" fill="url(#hub)" stroke="#9fd8ff" stroke-opacity="0.6" stroke-width="1.5"/>
+
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif">
+    <text x="940" y="165" fill="#cfe9ff" font-size="11" font-weight="700" letter-spacing="1.5" text-anchor="middle">GRAPH</text>
+    <text x="940" y="187" fill="#ffffff" font-size="19" font-weight="700" text-anchor="middle">v1.0</text>
+
+    <!-- Resource chips: directory in blue, files in teal -->
+    <g fill="#0f1b2b" stroke-width="1.5">
+      <rect x="715" y="121" width="60" height="32" rx="16" stroke="#4cc2ff" stroke-opacity="0.75"/>
+      <rect x="801.5" y="59" width="72" height="32" rx="16" stroke="#4cc2ff" stroke-opacity="0.75"/>
+      <rect x="1002.5" y="59" width="80" height="32" rx="16" stroke="#4cc2ff" stroke-opacity="0.75"/>
+      <rect x="1081" y="121" width="108" height="32" rx="16" stroke="#4cc2ff" stroke-opacity="0.75"/>
+      <rect x="1075" y="191" width="120" height="32" rx="16" stroke="#4cc2ff" stroke-opacity="0.75"/>
+      <rect x="976.5" y="253" width="132" height="32" rx="16" stroke="#4cc2ff" stroke-opacity="0.75"/>
+      <rect x="803.5" y="253" width="68" height="32" rx="16" stroke="#34d1bf" stroke-opacity="0.85"/>
+      <rect x="703" y="191" width="84" height="32" rx="16" stroke="#34d1bf" stroke-opacity="0.85"/>
+    </g>
+    <g fill="#e6edf6" font-size="14" font-weight="600" text-anchor="middle">
+      <text x="745" y="142">Me</text>
+      <text x="837.5" y="80">Users</text>
+      <text x="1042.5" y="80">Groups</text>
+      <text x="1135" y="142">Companies</text>
+      <text x="1135" y="212">Departments</text>
+      <text x="1042.5" y="274">Legal entities</text>
+      <text x="837.5" y="274">Drive</text>
+      <text x="745" y="212">Storage</text>
+    </g>
+
+    <!-- Headline -->
+    <text x="64" y="92" fill="#9fd8ff" font-size="15" font-weight="700" letter-spacing="3">RANTE GRAPH</text>
+    <text x="64" y="156" fill="#ffffff" font-size="50" font-weight="600">One API for the data</text>
+    <text x="64" y="214" fill="#ffffff" font-size="50" font-weight="600">in the Rante cloud.</text>
+    <text x="64" y="256" fill="#c7d3e3" font-size="19">Your tenant's people, files and storage, in one REST API.</text>
+  </g>
+
+  <!-- First request -->
+  <g transform="translate(64 282)">
+    <rect width="590" height="54" rx="10" fill="#0f1b2b" stroke="#9fd8ff" stroke-opacity="0.2"/>
+    <circle cx="24" cy="27" r="5" fill="#ffffff" fill-opacity="0.28"/>
+    <circle cx="42" cy="27" r="5" fill="#ffffff" fill-opacity="0.28"/>
+    <circle cx="60" cy="27" r="5" fill="#ffffff" fill-opacity="0.28"/>
+    <text x="84" y="32.5" font-family="'Cascadia Code', 'Cascadia Mono', Consolas, 'SFMono-Regular', Menlo, Monaco, 'Courier New', monospace" font-size="15"><tspan fill="#9fd8ff" font-weight="700">GET</tspan><tspan fill="#e6edf6"> https://graph.rante.com/v1.0/tenants/</tspan><tspan fill="#ffb86b">{tenantId}</tspan><tspan fill="#e6edf6">/me</tspan></text>
+  </g>
+</svg>
