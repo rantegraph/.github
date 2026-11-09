@@ -1,12 +1,10 @@
 # rantegraph/.github
 
-This repository holds the public profile of the [rantegraph](https://github.com/rantegraph) organization
-on GitHub, and the default community files for Rante's open-source repositories.
+This repository holds the default community files for the repositories of the
+[rantegraph](https://github.com/rantegraph) organization on GitHub.
 
 | Path | What it is |
 |---|---|
-| [`profile/README.md`](profile/README.md) | The README on the organization's GitHub page. |
-| [`images/`](images) | Images the profile uses. |
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | The code of conduct for every Rante repository. |
 | [`SECURITY.md`](SECURITY.md) | How to report a security vulnerability. |
 
